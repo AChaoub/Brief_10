@@ -1,0 +1,164 @@
+#conteneurIns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  height: 80%;
+}
+
+#conteneurIns img {
+  width: 90px;
+  height: 90px;
+  display: block;
+}
+
+#conteneurIns #parag {
+  font-family: "Jost", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+#conteneurIns .divInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#conteneurIns .divInput input {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 440px;
+  height: 50px;
+  padding-left: 10px;
+  background-color: rgba(235, 233, 233, 0.205);
+  background: #FDFDFD;
+  border: 1px solid #F4F4F4;
+}
+
+#conteneurIns .divInput #divButt {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#conteneurIns .divInput #divButt #annulation {
+  width: 220px;
+  height: 50px;
+  background-color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+  color: #868686;
+  background: #F4F4F4;
+  border: 1px solid #E9E9E9;
+  border-bottom: 3px solid #E9E9E9;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+#conteneurIns .divInput #divButt #confirmation {
+  color: white;
+  width: 220px;
+  height: 50px;
+  background-color: #d6180b;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  background: #d6180b;
+  border: 1px solid #d6180b;
+  border-bottom: 3px solid #d6180b;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+#conteneurIns #ligne1 {
+  margin-top: 130px;
+}
+
+#conteneurIns #parag2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #535353;
+}
+
+#conteneurIns #parag2 span {
+  text-decoration: underline;
+  color: #FFC000;
+}
+
+#conteneurIns #parag3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #2D2D2D;
+}
+
+.blank {
+  width: 100%;
+  height: 90px;
+}
+
+#footerCont {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+#navBarLinks {
+  display: none;
+}
+/*# sourceMappingURL=Connexion.css.map */

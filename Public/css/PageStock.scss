@@ -1,0 +1,44 @@
+$fontP : 'Jost',
+sans-serif;
+$color1:#f7f7f7;
+
+h1 {
+    font-family: $fontP;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: $fontP;
+    font-size: 15px;
+}
+
+.BTNQTE {
+    color: white;
+    width: 220px;
+    height: 50px;
+    background-color: #d6180b;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    background: #d6180b;
+    border: 1px solid #d6180b;
+    border-bottom: 3px solid #d6180b;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-top: 15px;
+}
+
+span {
+    margin-top: 30px;
+    font-family: $fontP;
+    font-weight: 500;
+    font-size: 19px;
+    color: #2b3336;
+    text-align: initial;
+}
